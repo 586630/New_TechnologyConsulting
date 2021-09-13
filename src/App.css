@@ -1,0 +1,19 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background-color: gray;
+  display: grid;
+  place-items: center;
+}
+
+.app__container {
+  height: 700px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(232, 234, 237);
+  /* border-radius: 12px; */
+  padding: 32px 0;
+  overflow-y: scroll;
+}

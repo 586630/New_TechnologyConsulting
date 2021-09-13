@@ -1,0 +1,11 @@
+.removeIcon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.removeIcon:hover {
+  height: 25px;
+  width: 25px;
+  margin-right: 7px;
+}

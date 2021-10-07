@@ -9,7 +9,7 @@ export const DataFetcher = () => {
     const user = useSelector(selectUser)
 
     const apiFetch = async () => {
-        const url = "https://jsonplaceholder.typicode.com/users/" + user + "/todos"
+        const url = "https://api.opensea.io/api/v1/assets?order_direction=desc&offset=0&limit=20"
         const response = await fetch(url)
         const data = await response.json()
 
